@@ -8,7 +8,7 @@ const configDB = async () => {
     });
     console.log("DB is connected");
   } catch (error) {
-    console.error(object);
+    console.error(error);
   }
 };
 module.exports = configDB;

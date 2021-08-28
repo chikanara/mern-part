@@ -1,0 +1,25 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm run dev\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chikanara/mern-part.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chikanara/mern-part/issues"
+  },
+  "homepage": "https://github.com/chikanara/mern-part#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "concurrently": "^6.2.1",
+    "react-bootstrap": "^1.6.1"
+  }
+}
