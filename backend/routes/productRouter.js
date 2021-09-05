@@ -3,7 +3,7 @@ const isAuth = require("../middleware/isAuth")
 
 const router = require("express").Router()
 router.get("/products",getProducts)
-router.post("/add",isAuth,addProduct)
+router.post("/add",addProduct)
 router.put("/edit/:productID",editProduct)
 router.delete("/delete/:productID",deleteProduct)
 
